@@ -17,21 +17,6 @@ public class ServerLauncher extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-//        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../lk.ijse.chat_app_exam/ServerForm-1.fxml"))));
-//        primaryStage.setTitle("Server");
-//        primaryStage.centerOnScreen();
-//        primaryStage.setResizable(false);
-//        primaryStage.show();
-//
-//        Stage stage = new Stage();
-//        stage.initModality(Modality.WINDOW_MODAL);
-//        stage.initOwner(primaryStage.getScene().getWindow());
-//        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../lk.ijse.chat_app_exam/LoginForm-1.fxml"))));
-//        stage.setTitle("Chat Chat");
-//        stage.centerOnScreen();
-//        stage.setResizable(false);
-//        stage.show();
-
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("LoginForm-1.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         primaryStage.setTitle("Hello!");
